@@ -1,0 +1,74 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  font-size: 15px;  
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+
+  font-family: "LexendDeca";
+  src: url(/fonts/Lexend_Deca/LexendDeca-Regular.ttf) format("truetype");
+}
+#box-card {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+#card{
+  border-radius: 10px;
+  background-color: hsl(244, 38%, 16%);
+  width: 1050px;
+  height: 445px;
+  display: flex;
+  justify-content: space-between;
+}
+#part-left{
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+#container-text{
+  width: 380px;
+}
+#infos{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);  
+  font-family:"LexendDeca";
+  font-weight: 400;
+  margin-top: 0;
+}
+#title{
+  font-size: 35px;
+  font-family: "LexendDeca";
+  font-weight: 400,700;
+}
+#description{
+  margin-top: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "LexendDeca"; 
+  font-weight:400;
+  line-height: 20px;;
+}
+h1{
+  font-size: 30px;
+  font-family: "LexendDeca";
+  font-weight: 400;
+  margin-bottom: 0;
+}
+img{
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  filter: invert(10%) sepia(50%) saturate(550%) hue-rotate(230deg) brightness(59%) contrast(100%);
+}
