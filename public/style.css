@@ -103,9 +103,18 @@ img {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 867px) {
+  #box-card{
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
   #card {
     flex-direction: column-reverse;
+  }
+  img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
   }
   #part-left {
     padding: 30px;
