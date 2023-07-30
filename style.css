@@ -70,9 +70,10 @@ p {
   margin-top: 0;
 }
 #title {
-  font-size: 4.2vmin;
+  font-size: 3.8vmin;
   font-family: "LexendDeca";
   font-weight: 400, 700;
+  font-weight: 800;
 }
 #description {
   margin-top: 20px;
@@ -106,10 +107,11 @@ img {
 @media screen and (max-width: 867px) {
   #box-card{
     height: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    width: auto;
+    margin: 80px 20px;
   }
   #card {
+    width: auto;
     flex-direction: column-reverse;
   }
   img{
@@ -120,10 +122,13 @@ img {
     padding: 30px;
   }
   #container-text {
+    width: 90%;
+    margin: auto;
+    max-width: none;
     text-align: center;
   }
   #title {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   #description {
     margin-bottom: 30px;
