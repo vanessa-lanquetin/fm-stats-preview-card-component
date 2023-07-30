@@ -1,6 +1,6 @@
 {
   "name": "fm-stats-preview-card-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "## Project setup ``` npm install ```",
   "main": "index.js",
   "scripts": {
